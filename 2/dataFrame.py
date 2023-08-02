@@ -23,8 +23,9 @@ class DataFrame:
                 return "Unknown"
             else:
                 return "Oldie"
-        
+            
         self.df['Maturity'] = self.df["Age"].apply(lambda x: condition(x))
+        return self.df
     
     def youngest(self):
         return self.df.iloc[self.df["Age"].idxmin()]
@@ -40,13 +41,22 @@ class DataFrame:
         
         self.df['Age_group'] = self.df["Age"].apply(lambda x: condition(x))
         return self.df.groupby(["Age_group"])['Age_group'].count()
+    
+    def forever_alone(self):
+        return self.df[(self.df.SibSp == 0) & (self.df.Parch == 0)]['Name']
+    
+    def fill(self):
+        avg =self.df['Age'].mean()
+        self.df['Age'].fillna(avg, inplace=True)
+        return self.df
 
         
 
 titanic = DataFrame("2/titanic.csv")
 # titanic.avg()
-# titanic.maturity()
-# print(titanic.df.head(100))
+# print(titanic.maturity())
 # print(titanic.youngest())
 # print(titanic.oldest())
 # print(titanic.age_group())
+# print(titanic.forever_alone())
+# print(titanic.fill())
