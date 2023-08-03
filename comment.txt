@@ -1,0 +1,35 @@
+Postaraj się napisać, obiekty, których metody będą wykonywać zadania. Niech obiekt podczas inicjacji przyjmie dane, a metody niech używają danych przypisanych do atrybutu. Możesz też zrobić najpier obiekt, który zaczyta dane, a potem 2 obiekty ( jeden dla pandas, a drugi dla polars, które będą dziedzić metodę zaczytowania danych po pierwszym obiekcie( klasie)
+
+Zadania z użyciem biblioteki pandas:
+
+ 
+
+·         Połączenie dwóch DataFrames na podstawie wspólnego klucza "PassengerId" - np. połączenie informacji o pasażerach z informacjami o biletach.
+·         Obliczenie średniej wieku pasażerów w klasach biletów (1, 2 i 3) dla różnych grup płciowych (mężczyźni i kobiety).
+·         Wykorzystanie .apply(lambda x: ...) do stworzenia nowej kolumny na podstawie innych kolumn - np. określenie, czy dany pasażer jest dzieckiem, dorosłym czy starszą osobą.
+·         Znalezienie najmłodszego i najstarszego pasażera na statku.
+·         Grupowanie pasażerów na podstawie przedziałów wiekowych (np. 0-10 lat, 11-20 lat itp.) i obliczenie liczby pasażerów w każdej grupie.
+·         Wyodrębnienie samotnych podróżujących (osoby, które nie miały rodzeństwa, małżonka, rodzica ani dziecka na pokładzie).
+·         Wykrycie i obsługa brakujących danych - np. uzupełnienie brakujących wieków pasażerów wartością średnią dla danej grupy wiekowej. 
+
+Zadania z użyciem biblioteki polars: 
+
+·         Połączenie dwóch Lazy DataFrames na podstawie wspólnego klucza "PassengerId" - np. połączenie informacji o pasażerach z informacjami o biletach.
+·         Obliczenie średniej wieku pasażerów w klasach biletów (1, 2 i 3) dla różnych grup płciowych (mężczyźni i kobiety).
+·         Wykorzystanie .apply(lambda x: ...) do stworzenia nowej kolumny na podstawie innych kolumn - np. określenie, czy dany pasażer jest dzieckiem, dorosłym czy starszą osobą.
+·         Znalezienie najmłodszego i najstarszego pasażera na statku.
+·         Grupowanie pasażerów na podstawie przedziałów wiekowych (np. 0-10 lat, 11-20 lat itp.) i obliczenie liczby pasażerów w każdej grupie.
+·         Wyodrębnienie samotnych podróżujących (osoby, które nie miały rodzeństwa, małżonka, rodzica ani dziecka na pokładzie).
+·         Wykrycie i obsługa brakujących danych - np. uzupełnienie brakujących wieków pasażerów wartością średnią dla danej grupy wiekowej.
+·         Wykorzystanie joinów i agregacji do znalezienia pasażerów, którzy mieli najwyższą szansę na przeżycie, uwzględniając różne cechy, takie jak klasa biletu, płeć, wiek itp.
+
+//////////////////////////////////
+
+1. Prosiłeś mnie bym stworzył klasę dataframe, która by zczytała dane i od której bym kolejno dziedziczył wszystkie metody dla dataframeów modułów Pandas i Polars.
+Niestety nie dokonałem tego, gdyż nie widziałem w tym sensu. Żadna z metod do wykonania poszczególnych zadań nie była identyczna dla Polars i Pandas, więc uznałem, że dziedziczenie tutaj nie ma sensu.
+Jeśli czegoś tu nie ogarnąłem odpowiednio, proszę popraw mnie jak powinno być poprawniej. 
+Komentarz możesz zostawić pod spodem, mailem, telefonem czy jak tam wolisz.
+
+2. Pierwsze zadania też jeszcze zaraz zrobię. Z tego co rozumiem, to nie mogłem tego zrobić na danych titanica, bo te dane to tylko jedna tabela. Chyba, że czegoś nie kumam to dojaśnij pliz. Znalazłem jakieś dane PetShop i na tym to ogarnę dla przykładu.
+
+3. Zaraz się zabiorę za wrzucenie tutaj kilku przykładów z moich ćwiczeń OOP by zczaić ideę poszczególnych mechanizmów.
