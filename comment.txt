@@ -30,6 +30,6 @@ Niestety nie dokonałem tego, gdyż nie widziałem w tym sensu. Żadna z metod d
 Jeśli czegoś tu nie ogarnąłem odpowiednio, proszę popraw mnie jak powinno być poprawniej. 
 Komentarz możesz zostawić pod spodem, mailem, telefonem czy jak tam wolisz.
 
-2. Pierwsze zadania też jeszcze zaraz zrobię. Z tego co rozumiem, to nie mogłem tego zrobić na danych titanica, bo te dane to tylko jedna tabela. Chyba, że czegoś nie kumam to dojaśnij pliz. Znalazłem jakieś dane PetShop i na tym to ogarnę dla przykładu.
+2. Apropo pierwszych zadań- z tego co rozumiem, to nie mogłem tego zrobić na danych titanica, bo te dane to tylko jedna tabela. Chyba, że czegoś nie kumam to dojaśnij pliz. Znalazłem jakieś dane PetShop i na tym to ogarnę dla przykładu. Rozwiązanie w pliku dataFrameJoin
 
-3. Zaraz się zabiorę za wrzucenie tutaj kilku przykładów z moich ćwiczeń OOP by zczaić ideę poszczególnych mechanizmów.
+3. Zaraz się zabiorę za wrzucenie tutaj kilku przykładów z moich ćwiczeń OOP, które wykonywałem by zczaić ideę poszczególnych mechanizmów. Po tym stwierdzisz ile czaję, a ile jeszcze powinienem czaić. 
