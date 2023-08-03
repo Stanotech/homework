@@ -2,8 +2,8 @@ from PdDataFrame import PdDataFrame
 from PlDataFrame import PlDataFrame
 
             
-titanic = PdDataFrame("2/titanic.csv")
-# titanic = PlDataFrame("2/titanic.csv")
+titanic = PdDataFrame("2 DataFrame/titanic.csv")
+# titanic = PlDataFrame("2 DataFrame/titanic.csv")
 titanic.avg()
 # print(titanic.maturity())
 # print(titanic.youngest())
