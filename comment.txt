@@ -26,10 +26,32 @@ Zadania z użyciem biblioteki polars:
 //////////////////////////////////
 
 1. Prosiłeś mnie bym stworzył klasę dataframe, która by zczytała dane i od której bym kolejno dziedziczył wszystkie metody dla dataframeów modułów Pandas i Polars.
-Niestety nie dokonałem tego, gdyż nie widziałem w tym sensu. Żadna z metod do wykonania poszczególnych zadań nie była identyczna dla Polars i Pandas, więc uznałem, że dziedziczenie tutaj nie ma sensu.
+Niestety nie dokonałem tego, gdyż nie widziałem w tym sensu. Żadna z metod do wykonania poszczególnych zadań nie była identyczna 
+dla Polars i Pandas, więc uznałem, że dziedziczenie tutaj nie ma sensu.
 Jeśli czegoś tu nie ogarnąłem odpowiednio, proszę popraw mnie jak powinno być poprawniej. 
 Komentarz możesz zostawić pod spodem, mailem, telefonem czy jak tam wolisz.
 
-2. Apropo pierwszych zadań- z tego co rozumiem, to nie mogłem tego zrobić na danych titanica, bo te dane to tylko jedna tabela. Chyba, że czegoś nie kumam to dojaśnij pliz. Znalazłem jakieś dane PetShop i na tym to ogarnę dla przykładu. Rozwiązanie w pliku dataFrameJoin
+2. Apropo pierwszych zadań- z tego co rozumiem, to nie mogłem tego zrobić na danych titanica, bo te dane to tylko jedna tabela. 
+Chyba, że czegoś nie kumam to dojaśnij pliz. Znalazłem jakieś dane PetShop i na tym to ogarnę dla przykładu. Rozwiązanie w pliku dataFrameJoin
 
-3. Zaraz się zabiorę za wrzucenie tutaj kilku przykładów z moich ćwiczeń OOP, które wykonywałem by zczaić ideę poszczególnych mechanizmów. Po tym stwierdzisz ile czaję, a ile jeszcze powinienem czaić. 
+3. Wejdź proszę na:
+https://py.checkio.org/station/incinerator/
+Login-Strogala@gmail.com
+Hasło-CheckItOut!
+
+To stronka z fajnymi ćwiczeniami dla Pythona. Skupia sporą społeczność i jak się uda wykonać ćwiczenie to ukazuje się najlepsze 
+spośród społeczności rozwiązanie pod względem "schludności", optymalizacji, czy oryginalności.
+Przerobiłem tam co nieco, a w szczególności własnie chciałem poćwiczyć OOP, 
+więc ten link prowadzi właśnie do ćwiczeń z OOP.
+Począwszy od ćwiczenia
+"The Warriors", aż do ćwiczenia "The Warlords".
+Jest rozwijany jeden temat. Ćwiczenia zahaczają o dziedziczenie, dziedziczenie poszczególnych metod i modyfikowanie ich (super), 
+dekoratory, tworzenie instancji, zmienne klasy, zmienne instancji, modyfikowanie ich. 
+Wejdź po prostu na ostatnie i się rozejrzyj:
+"The Warlords"- https://py.checkio.org/en/mission/the-warlords/
+
+Kolejne ćwiczenia po The Warlords zahaczają o temat różnych design patternów w OOP.
+Ten temat tu liznąłem pierwszy raz, żeby pokumać jakie są możliwości. Możesz mi powiedzieć, który z design patternów jest najczęściej używany do czego w codzienniej pracy.
+Poza tym wcześniej w OOP robiłem kilka rzeczy, ale Checkio dobrze ukazuje wachlarz umiejętności i rozumienia mechanizmów. 
+
+Ostatecznie możesz mi dać jakieś jeszcze rozbudowane zadanie z OOP sprawdzające, chyba, że nie widzisz takiej konieczności to możesz od razu walnąć zadaniami z następnego tematu.
